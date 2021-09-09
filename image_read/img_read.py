@@ -8,7 +8,7 @@ numpy python da az bellek alanı kaplayan liste liste kütüphanesidir.
 import cv2, numpy as np
 # kütüphaneler dahil edildi.
 
-oku = cv2.imread("resim_okuma/nesne2.jpeg",0) 
+oku = cv2.imread("nesne2.jpeg",0) 
 # cv2.imread() metodu ile oku yapılacak dosya belirtilir. ikinci parametre "0" ise resim renk tonlarını siyah/beyaz yapar.
 
 cv2.imshow("Open Cv Test Task",oku)
