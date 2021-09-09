@@ -7,7 +7,7 @@ Resim üzerinden çerçeve, aynalama, tekrarlama veya uzatma işleminin yapılma
 '''
 
 
-img = cv2.imread("resim_dikdortgen/turuncu_kamera.jpg")
+img = cv2.imread("kahve.jpg")
 
 
 # kullanılan method cv2.(copyMakeBorder)
