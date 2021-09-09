@@ -7,7 +7,7 @@ import numpy as np
 img değişkeninde yer alan resim üzerinde belirli bir kısma efect uygulama
 '''
 
-img = cv2.imread("resim_efect/turuncu_kamera.jpg")
+img = cv2.imread("turuncu_kamera.jpg")
 
 img[:,:,2] = 150     # RGB 2. index (Red değeri) değerine değer atanır.
 img[:,:,1] = 190    # RGB 1. index (Green değeri) değerine değer atanır.
