@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread("resim_kare/mavi_boncuk.png")
+img = cv2.imread("mavi_boncuk.png")
 
 
 cv2.rectangle(img,(260,180),(380,55),(0,0,183),3)
