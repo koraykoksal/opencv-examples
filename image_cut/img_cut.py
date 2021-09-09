@@ -6,7 +6,7 @@ import numpy as np
 Resim üzeriden belirli bir alanı kesit alma işlemi
 """
 
-img = cv2.imread("resimden_kesit_alma/turuncu_kamera.jpg")
+img = cv2.imread("turuncu_kamera.jpg")
 
 
 
