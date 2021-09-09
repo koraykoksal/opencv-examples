@@ -5,7 +5,7 @@ import numpy as np
 
 img = cv2.imread("happy.jpg")
 
-cv2.imshow("Image Size", img)
+cv2.imshow("Image", img)
 
 print(img[(230,80)])
 
