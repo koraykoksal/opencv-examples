@@ -6,11 +6,11 @@ resimdeki pixeller üst üste bindiği zaman ağırlıklarının toplanma işlem
 """
 
 #okuma işlemi
-img = cv2.imread("resim_agirlikli_toplama/bird.jpg")
-img2 = cv2.imread("resim_agirlikli_toplama/kahve.jpg")
-img3 = cv2.imread("resim_agirlikli_toplama/turuncu_kamera.jpg")
-img4 = cv2.imread("resim_agirlikli_toplama/turuncu_kamera.jpg")
-gt = cv2.imread("resim_agirlikli_toplama/bird.jpg",0)
+img = cv2.imread("bird.jpg")
+img2 = cv2.imread("kahve.jpg")
+img3 = cv2.imread("turuncu_kamera.jpg")
+img4 = cv2.imread("turuncu_kamera.jpg")
+gt = cv2.imread("bird.jpg",0)
 
 # img ve img2 y-x değerlerinin bgr değerlerinin çıktısı alınır.
 
