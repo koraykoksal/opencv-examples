@@ -3,7 +3,7 @@ import numpy as np
 
 
 """
-open cv ile yeni bir shape oluşturma içine çizgi, çember ve metin kutusu yazdırma işlemi
+numpy ile yeni bir shape oluşturma ve içine opencv ile çizgi, çember ve metin kutusu yazdırma işlemi
 """
 
 # shape oluşturma
